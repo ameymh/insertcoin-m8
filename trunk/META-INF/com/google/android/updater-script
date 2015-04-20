@@ -738,6 +738,31 @@ then
 endif;
 
 
+if
+    file_getprop("/tmp/aroma-data/sfeatures.prop","item.0.2") == "1"
+then
+    ui_print("|-> IC Battery Mods");
+    package_extract_dir("tools/addons/battery", "/data"); 
+endif;
+
+if
+    file_getprop("/tmp/aroma-data/sfeatures.prop","item.0.3") == "1"
+then
+    ui_print("|-> Center Clock");
+    package_extract_dir("tools/addons/centerclock", "/system"); 
+endif;
+
+
+if
+    file_getprop("/tmp/aroma-data/sfeatures.prop","item.0.4") == "1"
+then
+    ui_print("|-> Smaller Navbar");
+	package_extract_dir("tools/addons/nav36", "/tmp");
+	run_program("/tmp/res_patch.sh", "/system/framework/framework-res.apk");
+    run_program("/tmp/res_patch.sh", "/system/priv-app/HtcContactsDialer/HtcContactsDialer.apk");
+endif;
+
+
 #if
 #    file_getprop("/tmp/aroma-data/sfeatures.prop","item.0.2") == "1"
 #then
