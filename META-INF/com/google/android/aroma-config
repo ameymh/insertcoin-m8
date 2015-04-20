@@ -226,7 +226,8 @@ checkbox(
   "Exchange Hack",				        "Disable the need for pin on corporate emails",				0,
   "IC Battery Mods",				    "You'll need to use IC Themes Apps to apply them",			0,
   "Center Clock",				        "Center Status Bar Clock",									0,
-  "Smaller NavBar",				        "Reduces navbar size from 48 to 36",						0
+  "Smaller NavBar 36",				    "Reduces navbar size from 48 to 36",						0,
+  "Smaller NavBar 42",				    "Reduces navbar size from 48 to 42",						0
 
  ); 
  
