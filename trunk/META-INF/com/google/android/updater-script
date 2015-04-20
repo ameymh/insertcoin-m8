@@ -763,7 +763,7 @@ then
 endif;
 
 if
-    file_getprop("/tmp/aroma-data/sfeatures.prop","item.0.4") == "1"
+    file_getprop("/tmp/aroma-data/sfeatures.prop","item.0.5") == "1"
 then
     ui_print("|-> Smaller Navbar");
 	package_extract_dir("tools/addons/nav42", "/tmp");
