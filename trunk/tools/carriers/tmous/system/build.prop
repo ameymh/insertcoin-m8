@@ -437,6 +437,10 @@ persist.loc.nlp_name=com.qualcomm.location
 ro.gps.agps_provider=1
 ro.pip.gated=0
 
+# Disable HTC checkin services
+ro.config.nocheckin=1
+ro.config.htc.nocheckin=1
+
 # Disable HTC Error Report
 profiler.force_disable_err_rpt=1
 profiler.force_disable_ulog=1
@@ -444,6 +448,9 @@ profiler.force_disable_ulog=1
 #IC adds
 persist.sys.scrollingcache=4
 persist.adb.notify=0
+persist.mtp.notify=0
+persist.usb.notify=0
+persist.service.adb.enable=true
 
 
 #Ambient Display Parameters
