@@ -5,6 +5,7 @@ InsertCoin 7.1.3
 - fixed HK for VZW users (props andybones)
 - added Auto-Start Manager (Settings - Security)
 - AROMA: added Smaller NavBar Size options (42 and 36)
+- AROMA: AutoSleep Alternative 
 - Kontrol Tweak: Allow dynamic Navigation Bar colour's (Material design app's only) - props lyapota
 - updated HTC Service Pack
 InsertCoin 7.1.2
