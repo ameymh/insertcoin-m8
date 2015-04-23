@@ -227,7 +227,8 @@ checkbox(
   "IC Battery Mods",				    "You'll need to use IC Themes Apps to apply them",			0,
   "Center Clock",				        "Center Status Bar Clock",									0,
   "Smaller NavBar 36",				    "Reduces navbar size from 48 to 36",						0,
-  "Smaller NavBar 42",				    "Reduces navbar size from 48 to 42",						0
+  "Smaller NavBar 42",				    "Reduces navbar size from 48 to 42",						0,
+  "AutoSleep Alternative",				"Changes parameters when device screen turns off",			0
 
  ); 
  
